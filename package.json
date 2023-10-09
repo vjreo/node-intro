@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "18.18.0",
+  "description": "simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjreo/node-intro.git"
+  },
+  "author": "Vincenzo Reo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjreo/node-intro/issues"
+  },
+  "homepage": "https://github.com/vjreo/node-intro#readme"
+}
