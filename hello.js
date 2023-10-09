@@ -1,7 +1,12 @@
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
-const PORT = process.env.PORT || 5000;
+
+//heroku port - never pushed to heroku
+// const PORT = process.env.PORT || 5000;
+
+// set port to 8080 for local
+const PORT = process.env.PORT
 
 
 http.createServer(function(req, res) {
